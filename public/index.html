@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+         </style>
     <title>Hello, World!</title>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="client.js" defer></script>
+    <link href="style.css" rel="stylesheet">    
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my index page.</p>
-    <button id="sample-button">Click me</button>
-    <input type="text" id="sample-text">
+    <h1 id='article-title' class="title uppercase">Montera</h1>
+    <h1 class='blue-fat'>Author: Johnny Pastor</h1>
+    <p>Kalkulator</p>
+    <div>
+        <table>  
+        <input type="text" id="display" readonly>
+        <br>
+        <tr>
+        <button id="button-">C</button>
+        <button id="button-*">*</button>
+        <button id="button-/">/</button>
+        <button id="button-+">+</button>
+        </tr>
+        <br>
+        <tr>
+        <button id="button-7">7</button>
+        <button id="button-8">8</button>
+        <button id="button-9">9</button>
+        <button id="button--">-</button>
+        </tr>
+        <br>
+        <tr>
+        <button id="button-4">4</button>
+        <button id="button-5">5</button>
+        <button id="button-6">6</button>
+        <button id="button-=" class="equal">=</button>
+        </tr>
+        <br>
+        <tr>
+        <button id="button-1">1</button>
+        <button id="button-2">2</button>
+        <button id="button-3">3</button>
+        <button id="button-.">.</button>
+        </tr>
+        <br>
+        <button id="button-0">0</button>
+        </table>
+        <a href='https://pl.wikipedia.org/wiki/Kalkulator' target='_blank'><strong>Learn More</strong></a>.
+    </div>
 </body>
 </html>
+

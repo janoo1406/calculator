@@ -1,0 +1,27 @@
+p{
+  color: green; <!-- tu zmieniamy kolor <p> na zielony -->
+}
+* {
+  border: 1px solid black; <!-- Tu zmieniamy obramowke na czarna -->
+}
+.title{
+  color: teal;
+}
+.uppercase{
+  text-transform: uppercase; <!-- tutaj wszystkie litery sa usatwione na duze -->
+}
+#article-title{
+  font-family: Tahoma; <!-- tutaj zmieniony zostal styl czcionki-->
+}
+a[href*='Kalkulator']{
+  color: lightpink;  <!-- zmieniony kolor przycisku przenoszącego do strony wikipedi-->
+
+}
+a:hover{
+  color: darkorange;
+  }
+  .blue-fat{
+    background-color: aqua;
+    font-family: cursive;
+    color:purple;
+  }
