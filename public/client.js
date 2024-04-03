@@ -70,19 +70,19 @@ clearButton.addEventListener('click', async (event) => {
   let display = document.getElementById("display");
   display.value = "";
 });
-const mnozenieButton = document.getElementById('button-*');
-mnozenieButton.addEventListener('click', async (event) => {
+const multiplicationButton = document.getElementById('button-*');
+multiplicationButton.addEventListener('click', async (event) => {
   let display = document.getElementById("display");
   display.value += "*";
 });
-const dzielenieButton = document.getElementById('button-/');
-dzielenieButton.addEventListener('click', async (event) => {
+const divisionButton = document.getElementById('button-/');
+divisionButton.addEventListener('click', async (event) => {
   let display = document.getElementById("display");
   display.value += "/";
 });
 
-const sumaButton = document.getElementById('button-=');
-sumaButton.addEventListener('click', async (event) => {
+const sumButton = document.getElementById('button-=');
+sumButton.addEventListener('click', async (event) => {
   let display = document.getElementById("display");
      let input = ["*", "/", "+", "-"];
       let changes = display.value;
