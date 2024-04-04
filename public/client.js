@@ -80,23 +80,25 @@ divisionButton.addEventListener('click', async (event) => {
   let display = document.getElementById("display");
   display.value += "/";
 });
-  const sumButton = document.getElementById('button-=');
+
+const sumButton = document.getElementById('button-=');
 sumButton.addEventListener('click', async (event) => {
   let display = document.getElementById("display");
-      let specialSigns = ["*", "/", "+", "-"];
-      let changes = display.value;
-      let newData = "";
-      for (let i = 0; i < changes.length; i++) {
-        if (specialSigns.includes(changes[i]) && specialSigns.includes(changes[i-1])) {
-          // do nothing
-        }
-        else {
-            newData += changes[i];
-        }
+  let specialSigns = ["*", "/", "+", "-"];
+  let changes = display.value;
+  let newData = "";
+  for (let i = 0; i < changes.length; i++) {
+    if (specialSigns.includes(changes[i]) && specialSigns.includes(changes[i-1])) {
+      // do nothing
     }
-    console.log(newData);
-    display.value = eval(newData);
-  });
+    else {
+      newData += changes[i];
+    }
+  }
+  console.log(newData);
+  display.value = eval(newData);
+});
+
 
 
 
